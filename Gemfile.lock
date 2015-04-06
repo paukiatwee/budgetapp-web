@@ -9,7 +9,7 @@ GEM
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    rack (1.6.0)
+    rack (1.5.2)
     rack-protection (1.5.3)
       rack
     rb-fsevent (0.9.4)
@@ -29,5 +29,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rack (= 1.5.2)
   rerun
   sinatra
