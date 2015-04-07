@@ -206,7 +206,7 @@ p.description {
 }
 
 .section.banner {
-    background: url('http://sky-dreamandme.rhcloud.com/assets/img/bg-banner.png') repeat;
+    background: url('/img/bg-banner.png') repeat;
     border-bottom: 1px solid #8abde8;
 }
 
@@ -254,12 +254,27 @@ p.description {
 }
 
 .feature-box {
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 .feature-box .icon {
     margin-bottom: 10px;
     height: 46px;
+    text-align: center;
+}
+
+.feature-box h3 {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .feature-box .icon {
+        text-align: left;
+    }
+
+    .feature-box h3 {
+        text-align: left;
+    }
 }
 
 .icon-xxlg {
