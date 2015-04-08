@@ -4,4 +4,6 @@ require 'bundler'
 Bundler.require
 
 require './server.rb'
-run Sinatra::Application
+
+App.set :run, false
+run App
