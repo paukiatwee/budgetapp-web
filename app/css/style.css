@@ -224,10 +224,13 @@ p.description {
     border-bottom: 1px solid #d7dbde;
 }
 
-.vertical-align {
-    display: flex;
-    align-items: center;
+@media (min-width: 768px) {
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
 }
+
 
 .no-visible, .js-viewport {
     visibility: hidden;
